@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<style>
+	
+.form-group label{
+	margin-left:9%;
+}
+.form-group input{
+	width:80%;
+	margin-left:9%;
+	border-radius:0;
+}
+form button{
+	margin-left:25%;
+	color:white;
+	border-radius:22px;
+	border:1px solid white;
+	background:#F39C12;
+	margin-bottom:3%;
+	margin-top:3%; 
+}
+	</style>
+	<body>
+		<form  method="post" action="connection.php">
+			<div class="form-group">
+				<label for="exampleInputName">Name</label>
+				<input type="text" class="form-control" id="exampleInputName" name="username" placeholder="Enter Your Name" required>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputName">Password</label>
+				<input type="text" class="form-control" id="exampleInputName" name="password" placeholder="Enter Your password" required>
+				
+			</div>
+			<div class="form-group">
+				<label for="exampleInputEmail1">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your Email" name="email" required>
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPhone">Phone Number</label>
+				<input type="phone" class="form-control" name="phone" placeholder="Enter Your phone number" required>
+			</div>
+			<button type="submit" class="btn read-more" value="">Submit</button>
+		</form>
+	</body>
+<html>
